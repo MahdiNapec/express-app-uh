@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('<h3>docker container is running</h3><br><h4>try to access the server from 8080</h4><br> <h4>another push</h4>');
+  res.send("<h3> the server is running on port 8080");
 })
 
 const PORT = 8080
